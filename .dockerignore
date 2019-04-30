@@ -3,7 +3,7 @@
 .dockerignore
 Dockerfile
 Makefile
-*.make
+*.mk
 LICENSE
 README.md
 data
