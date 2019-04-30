@@ -55,6 +55,7 @@ clean-docker:
 distclean-docker: stop rm rmi clean
 
 prune-docker:
+	-$(DEBUG) docker system prune
 
 # implicit rule to turn all bare targets into calls to -docker targets
 # idea from: https://stackoverflow.com/questions/11958626/make-file-warning-overriding-commands-for-target
